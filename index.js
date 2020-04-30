@@ -5,7 +5,6 @@ const axios = require("axios");
 
 // const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
-const axiosAsync = util.promisify(axios.get);
 
 inquirer
     .prompt([
@@ -75,30 +74,38 @@ inquirer
     ])
     .then((data) => {
 
-        const queryUrl = `https://api.github.com/users/${username}/repos?per_page=100`;
-
+        const queryUrl = `https://api.github.com/users/${data.githubName}`;
+        let gitHubImageAndEmail = [];
         axios.get(queryUrl).then(function (res) {
-            const repoNames = res.data.map(function (repo) {
-                return repo.name;
-            });
-
-            const repoNamesStr = repoNames.join("\n");
-
-            fs.writeFile("repos.txt", repoNamesStr, function (err) {
-                if (err) {
-                    throw err;
-                }
-
-                console.log(`Saved ${repoNames.length} repos`);
-            });
-        });
-
-        writeFileAsync("Readme.txt",
-            `# ${data.title}`
+            console.log(res);
+            console.log(`this is the image url ${res.data.avatar_url}`);
+            console.log(`this is the bio info ${res.data.bio}`);
+            console.log(`this is the  ${res.data.name}`);
+            console.log(`this is the email ${res.data.email}`);
+            writeFileAsync("Readme.md",
+            `# ${data.title}
+            ${res.data.avatar_url}
+            ${data.description}
+            ${data.installation}
+            ${data.usage}
+            ${data.licensing}
+            ${data.authors}
+            ${data.contributors}
+            ${data.tests}
+            ${data.questions}
+            ${data.reporting}`
+            
+            
             , (err) => {
                 if (err) {
                     throw err;
                 }
                 console.log("Successfully created your HTML file.");
             })
-    })
+            gitHubImageAndEmail = [res.avatar_url, res.email];
+            console.log(res.avatar_url);
+                // ![password generator demo](./Assets/03-javascript-homework-demo.png)
+            });
+          
+
+        });
