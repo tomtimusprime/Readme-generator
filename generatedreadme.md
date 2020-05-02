@@ -1,7 +1,8 @@
-# Readme Generator
+# adsflkjasdflkj
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
+![Github Avatar](https://avatars3.githubusercontent.com/u/47440447?v=4)
 
-### table of Contents: 
+### Table of Contents: 
 1. Project description
 2. Project usage
 3. Licensing
@@ -12,32 +13,39 @@
 8. Questions
 9. Reporting issues
 
-![Github Avatar](https://avatars3.githubusercontent.com/u/47440447?v=4)
+====================
+### Description
+asdflkjasdflkj
 
-###
-This program automates how you generate readmes for any project.
+====================
+### Project Usage
+asl;dfkjadsflkjasdfl;kjadsf;lkjadsf
 
-###
-This is a personal project that might turn into a "for profit" application someday.
-
-###
+====================
+### Licensing
 
 
-###
+====================
+### Authors
 Tom Black, John Chesley
 
-###
-Install your program through npm/node
+====================
+### Installation
+asdflkjasdfl;kjasdflkjasdf
 
-###
+=================================
+### Contribution and Contributors
 No contribution is too small and all contributions are valued. 
-Feel free to send update requests and submit bugs to our github profile.
+afdlkjasdfl;kajsdfl;kasjfd
 
-###
-All tests are performed through Mocha
+=============
+### Tests
+adfslkjadflkjadslfkjs
 
-###
-We get a lot of questions about x, y, z.
+==============
+### Question
+adfs;lkjadslkjasdflkjasf
 
-###
-Send us an email at tom.black06007@gmail.com
+==============
+### Reporting
+asfdlkjasdfl;kjadsflkjfds

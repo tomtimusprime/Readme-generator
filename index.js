@@ -80,8 +80,9 @@ inquirer
             writeFileAsync("generatedreadme.md",
 `# ${data.title}
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
+![Github Avatar](${res.data.avatar_url})
 
-### table of Contents: 
+### Table of Contents: 
 1. Project description
 2. Project usage
 3. Licensing
@@ -92,34 +93,41 @@ inquirer
 8. Questions
 9. Reporting issues
 
-![Github Avatar](${res.data.avatar_url})
-
-###
+====================
+### Description
 ${data.description}
 
-###
+====================
+### Project Usage
 ${data.usage}
 
-###
+====================
+### Licensing
 ${data.licensing}
 
-###
+====================
+### Authors
 ${data.authors}
 
-###
+====================
+### Installation
 ${data.installation}
 
-###
+=================================
+### Contribution and Contributors
 No contribution is too small and all contributions are valued. 
 ${data.contributors}
 
-###
+=============
+### Tests
 ${data.tests}
 
-###
+==============
+### Question
 ${data.questions}
 
-###
+==============
+### Reporting
 ${data.reporting}`
             , (err) => {
                 if (err) {
