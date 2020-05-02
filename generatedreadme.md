@@ -1,8 +1,5 @@
-# adflkj
+# ad;lskfj
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
-
-
-![Github Avatar](https://avatars3.githubusercontent.com/u/47440447?v=4)
 
 ## Table of Contents: 
 1. Project description
@@ -12,40 +9,43 @@
 5. Installation
 6. Contributors and How to Contribute
 7. Testing
-8. Questions
-9. Reporting issues
+8. Reporting issues
+9. Questions
 
-### Description
-adflkj
-
-
-### Project Usage
-adsfkj
-
-### Licensing
-None,MIT,GPL_3.0,BSD3,Other
-
-
-### Authors
-afdlkjasflj
-
-
-### Installation
+## Description
 asdflkj
 
 
-### Contribution and Contributors
+## Project Usage
+adsflkj
+
+## Licensing
+None,MIT,GPL_3.0,BSD3,Other
+
+
+## Authors
+adsflkjadsf
+
+
+## Installation
+adlfkj
+
+
+## Contribution and Contributors
 No contribution is too small and all contributions are valued. 
-afdlkjasdljkdfs
+asdf;lkj
 
 
-### Tests
-alfksdjlkasdjf
+## Tests
+asdflkj
 
 
-### Question
-adsflkjsadflkj
+## Reporting
+adsf;lkjasdf
 
 
-### Reporting
-afdlkjsdfalasdj
+## Question
+asdflkj
+
+![Github Avatar](https://avatars3.githubusercontent.com/u/47440447?v=4)
+Email unavailable.

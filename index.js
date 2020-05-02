@@ -3,7 +3,6 @@ const inquirer = require("inquirer");
 const util = require("util");
 const axios = require("axios");
 
-// const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
 
 inquirer
@@ -73,16 +72,12 @@ inquirer
         }
     ])
     .then((data) => {
-
         const queryUrl = `https://api.github.com/users/${data.githubName}`;
-        let gitHubImageAndEmail = [];
+
         axios.get(queryUrl).then(function (res) {
             writeFileAsync("generatedreadme.md",
 `# ${data.title}
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
-
-
-![Github Avatar](${res.data.avatar_url})
 
 ## Table of Contents: 
 1. Project description
@@ -92,53 +87,64 @@ inquirer
 5. Installation
 6. Contributors and How to Contribute
 7. Testing
-8. Questions
-9. Reporting issues
+8. Reporting issues
+9. Questions
 
-### Description
+## Description
 ${data.description}
 
 
-### Project Usage
+## Project Usage
 ${data.usage}
 
-### Licensing
+## Licensing
 ${data.licensing}
 
 
-### Authors
+## Authors
 ${data.authors}
 
 
-### Installation
+## Installation
 ${data.installation}
 
 
-### Contribution and Contributors
+## Contribution and Contributors
 No contribution is too small and all contributions are valued. 
 ${data.contributors}
 
 
-### Tests
+## Tests
 ${data.tests}
 
 
-### Question
+## Reporting
+${data.reporting}
+
+
+## Question
 ${data.questions}
 
+![Github Avatar](${res.data.avatar_url})
+${emailCheck(res)}
+`
+ , (err) => {
+    if (err) {
+        throw err;
+    }
+        console.log("Successfully created your HTML file.");
+    })
+});  
 
-### Reporting
-${data.reporting}`
-            , (err) => {
-                if (err) {
-                    throw err;
-                }
-                console.log("Successfully created your HTML file.");
-            })
-            gitHubImageAndEmail = [res.avatar_url, res.email];
-            console.log(res.avatar_url);
-                // ![password generator demo](./Assets/03-javascript-homework-demo.png)
-            });
-          
+});
 
-        });
+function emailCheck(res) {
+    let emailString = "";
+    if(res.data.email === null) {
+        emailString = "Email unavailable."
+    }
+    else {
+        emailString = res.data.email;
+    }
+    return emailString;
+}
