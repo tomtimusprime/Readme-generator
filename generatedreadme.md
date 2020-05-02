@@ -1,8 +1,10 @@
-# adsflkjasdflkj
+# adflkj
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
+
+
 ![Github Avatar](https://avatars3.githubusercontent.com/u/47440447?v=4)
 
-### Table of Contents: 
+## Table of Contents: 
 1. Project description
 2. Project usage
 3. Licensing
@@ -13,39 +15,37 @@
 8. Questions
 9. Reporting issues
 
-====================
 ### Description
-asdflkjasdflkj
+adflkj
 
-====================
+
 ### Project Usage
-asl;dfkjadsflkjasdfl;kjadsf;lkjadsf
+adsfkj
 
-====================
 ### Licensing
+None,MIT,GPL_3.0,BSD3,Other
 
 
-====================
 ### Authors
-Tom Black, John Chesley
+afdlkjasflj
 
-====================
+
 ### Installation
-asdflkjasdfl;kjasdflkjasdf
+asdflkj
 
-=================================
+
 ### Contribution and Contributors
 No contribution is too small and all contributions are valued. 
-afdlkjasdfl;kajsdfl;kasjfd
+afdlkjasdljkdfs
 
-=============
+
 ### Tests
-adfslkjadflkjadslfkjs
+alfksdjlkasdjf
 
-==============
+
 ### Question
-adfs;lkjadslkjasdflkjasf
+adsflkjsadflkj
 
-==============
+
 ### Reporting
-asfdlkjasdfl;kjadsflkjfds
+afdlkjsdfalasdj
