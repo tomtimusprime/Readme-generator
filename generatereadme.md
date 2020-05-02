@@ -1,6 +1,7 @@
-# afdlkjafladfkjs
-[![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
 
+# undefined
+[![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
+    
 ## Table of Contents: 
 1. Project description
 2. Project usage
@@ -13,40 +14,40 @@
 9. Questions
 
 ## Description
-adlkjasdflkj
+undefined
 
 
 ## Project Usage
-asdflkjsadlkdfjsa
+undefined
 
 ## Licensing
-APACHE_2.0
+undefined
 
 
 ## Authors
-adlkjasdfladskjf
+undefined
 
 
 ## Installation
-asdflkjasdlfjk
+undefined
 
 
 ## Contribution and Contributors
 No contribution is too small and all contributions are valued. 
-adslkjaslfkdj
+undefined
 
 
 ## Tests
-adsflkjadsfljkdsaf
+undefined
 
 
 ## Reporting
-adfsljkasfdlkj
+undefined
 
 
 ## Questions
-adsflfkadjsdfsaljk
+undefined
 
-![Github Avatar](https://avatars3.githubusercontent.com/u/47440447?v=4 =200x200)
+![Github Avatar](https://avatars3.githubusercontent.com/u/47440447?v=4)
 
-Email unavailable.
+tom.black06007@gmail.com
