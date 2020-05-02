@@ -122,13 +122,14 @@ ${data.tests}
 ${data.reporting}
 
 
-## Question
+## Questions
 ${data.questions}
 
-![Github Avatar](${res.data.avatar_url})
+![Github Avatar](${res.data.avatar_url} =200x200)
+
 ${emailCheck(res)}
 `
- , (err) => {
+ ,(err) => {
     if (err) {
         throw err;
     }
