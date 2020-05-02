@@ -77,25 +77,50 @@ inquirer
         const queryUrl = `https://api.github.com/users/${data.githubName}`;
         let gitHubImageAndEmail = [];
         axios.get(queryUrl).then(function (res) {
-            console.log(res);
-            console.log(`this is the image url ${res.data.avatar_url}`);
-            console.log(`this is the bio info ${res.data.bio}`);
-            console.log(`this is the  ${res.data.name}`);
-            console.log(`this is the email ${res.data.email}`);
-            writeFileAsync("Readme.md",
-            `# ${data.title}
-            ${res.data.avatar_url}
-            ${data.description}
-            ${data.installation}
-            ${data.usage}
-            ${data.licensing}
-            ${data.authors}
-            ${data.contributors}
-            ${data.tests}
-            ${data.questions}
-            ${data.reporting}`
-            
-            
+            writeFileAsync("generatedreadme.md",
+`# ${data.title}
+[![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
+
+### table of Contents: 
+1. Project description
+2. Project usage
+3. Licensing
+4. Authors
+5. Installation
+6. Contributors and How to Contribute
+7. Testing
+8. Questions
+9. Reporting issues
+
+![Github Avatar](${res.data.avatar_url})
+
+###
+${data.description}
+
+###
+${data.usage}
+
+###
+${data.licensing}
+
+###
+${data.authors}
+
+###
+${data.installation}
+
+###
+No contribution is too small and all contributions are valued. 
+${data.contributors}
+
+###
+${data.tests}
+
+###
+${data.questions}
+
+###
+${data.reporting}`
             , (err) => {
                 if (err) {
                     throw err;
