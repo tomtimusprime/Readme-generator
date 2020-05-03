@@ -1,5 +1,5 @@
 
-# undefined
+# Generate Readme example
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
     
 ## Table of Contents: 
@@ -14,39 +14,40 @@
 9. Questions
 
 ## Description
-undefined
+A simple project to create readme.md files for various projects
 
 
 ## Project Usage
-undefined
+For personal and educational use
+
 
 ## Licensing
-undefined
+APACHE_2.0
 
 
 ## Authors
-undefined
+Tom Black
 
 
 ## Installation
-undefined
+npm install
 
 
 ## Contribution and Contributors
 No contribution is too small and all contributions are valued. 
-undefined
+emailing me directly at tom.black06007@bootcampspot.com
 
 
 ## Tests
-undefined
+Jest.js 
 
 
 ## Reporting
-undefined
+At my personal email of tom.black06007@bootcampspot.com
 
 
 ## Questions
-undefined
+Example
 
 ![Github Avatar](https://avatars3.githubusercontent.com/u/47440447?v=4)
 
